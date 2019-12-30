@@ -1,0 +1,369 @@
+/* 
+#created by:Mai
+#Date:21-82019
+#CopyRight:
+#Description:
+#this fill for css  
+
+
+*/
+
+/* ##### for text */
+
+.text_login_center{
+    border-radius: 15px;
+    text-align: center;
+    padding: 8px 12px;
+    border: 1px solid blue;
+    margin: 10px;
+    max-width:200px ;
+    color: blue;
+    background-color: #ddd;
+}
+
+
+.text_login_left{
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 15px;
+    border: 1px solid blue;
+    margin: 10px;
+    max-width:400px ;
+    color: blue;
+    background-color: #ddd;
+}
+
+/* for arabic language start from right */
+
+.text_login_ar{
+    border-radius: 15px;
+    text-align: right;
+    padding-right: 15px;
+    border: 1px solid blue;
+    margin: 10px;
+    max-width:400px ;
+    color: blue;
+    background-color: #ddd;
+}
+
+/* text for signup part */
+.text_signup_left{
+text-align: center;
+padding-left: 15px;
+border: 1px solid black;
+color: blue;
+background-color: #ddd;
+max-width: 200px;
+margin: 10px;
+
+}
+
+.text_signup_right{
+    /* for arabic  */
+    text-align: right;
+    padding-right: 15px;
+    border: 1px solid black;
+    color: blue;
+    background-color: #ddd;
+    max-width: 200px;
+    margin: 10px;
+    }
+
+
+.text_signup_center{
+    /* for arabic  */
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    color: blue;
+    background-color: #ddd;
+    max-width: 200px;
+    max-height: 50px;
+    margin: 10px;
+    }
+
+
+
+
+/* text for search */
+
+.main_search_text_en{
+ /* normal text search*/
+ width: 400px;
+ height: 50px;
+ border-radius: 15px;
+ color:blue;
+ border: 1px solid blue;
+ background-color: white;
+ margin: 10px;
+ padding-left:15px;
+ text-align: left;
+  
+}
+
+.main_search_text_ar{
+    /*arabic text search*/
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    color:blue;
+    border: 1px solid blue;
+    background-color: white;
+    margin: 10px;
+    padding-right:15px;
+    text-align: right;
+     
+   }
+
+
+
+/* option for border */
+
+
+.small_border{
+    border: 1px solid blue;
+
+}
+
+.small_border_for_text{
+    border: 1px solid blue;
+    
+}
+
+.X_small_border_for_text{
+    border: 5px solid blue;
+}
+.X_small_border{
+    border: 5px solid blue;
+}
+
+.main_div{
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 0;
+
+}
+
+.item_div{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0;
+    float: left;
+    background-color:white;
+
+}
+
+
+.small_margin_20{
+    margin: 20px;
+
+}
+
+
+.large_margin_50{
+    margin: 50px;
+
+}
+
+
+/* for any text in the page */
+
+.string_small{
+  font-size: 15px;
+  padding: 12px;
+  margin: 0;
+}
+
+.string_x_small{ 
+    font-size: 25px;
+    padding: 12px;
+    margin: 0;}
+
+.string_xl_small{
+    font-size: 30px;
+    padding: 12px;
+    margin: 0;
+
+}
+/* end general text part */
+
+
+/* curve images */
+
+.small_curve{
+    border-radius: 15%;
+    margin: 10px;
+    background-image: url('');
+}
+
+.x_small_curve{
+    border-radius: 35%;
+    margin: 10px;
+    background-image: url('');
+}
+
+.xl_small_curve{
+    border-radius: 50%;
+    margin: 10px;
+    background-image: url('');
+}
+
+
+/* end of images */
+
+.general_curve{
+    border-radius: 10px;
+}
+
+.x_general_curve{
+    border-radius: 25px;
+}
+
+
+/* buttons */
+.btn_login{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+
+}
+
+.btn_login:hover{
+    
+    width: 110px;
+    height: 50px;
+}
+
+.btn_signup{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn_signup:hover{
+    background-color: darkslategray;
+    color: white;
+    width: 110px;
+    height: 50px;
+}
+
+.btn_search{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(62, 62, 168);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid rgb(62, 62, 168);
+
+}
+
+
+.btn_search:hover{
+    border-bottom-color: white;
+
+}
+
+
+.nav_ul{
+    width: 70%;
+    height: auto;
+    background-color: #ddd;
+    float: right;
+    margin: 0;
+    text-align: center;
+
+}
+
+.nav_ul li a{
+    text-decoration: none;
+    padding: 10px;
+    border-bottom-color: blue;
+    margin-left:10px;
+    margin-right: 10px;
+    float: left;
+
+
+}
+
+
+header{
+    width: 100%;
+    height: 20%;
+    margin: 0;
+}
+section{
+    width: 100%;
+    margin: 0;
+
+    height: 60%;
+}
+footer{
+    margin: 0;
+    width: 100%;
+    height: 20%;
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* buttons */
+
+
+
+
+
+/* end of border part */
+
+
+
+
+
+/* end of search text */
+
+
+
+
+
+
+
+
+
+
+/* end of signup text part */
+
+
+
+
+
+
+/* #### end text part ###### */

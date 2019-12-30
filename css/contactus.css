@@ -1,0 +1,416 @@
+body{
+    font-family: 'Relway';
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+
+
+    list-style-type:none;
+    float: right;
+    padding: 0;
+    margin: 0;
+    background-color: #9c9c9c;
+    width:87%;
+    /* padding-left: 10%; */
+ 
+}
+
+li a{
+
+float: left;
+padding: 18px 8px;
+margin-left:80px;
+display: block;
+text-decoration: none;
+color:#efeaea;
+font-size: 22px;
+font-family: 'Relway';
+
+}
+li a:hover{
+
+    background-color: #a6a6a7;
+color: #ffffff;
+text-decoration: none;
+}
+
+.logo{
+    width: 10%;
+}
+
+.space{
+
+    height:20px;
+    width:100%;
+    background-color: #ddd;
+}
+
+.section_view{
+
+width:100%;
+height:500px;
+background-color:white;
+
+
+}
+
+
+/* main div part */
+
+.main_div{
+width: 100%;
+height: auto;
+/* margin-top: 20px; */
+margin-bottom: 20px;
+background-color: #ddd;
+float: left;
+
+}
+
+.map_view{
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    margin-right: 5px;
+    /* margin-bottom: 15px; */
+    margin-top: 74px;
+
+
+
+}
+.view_info{
+
+    width:20%;
+    margin-right: 5px;
+    background-color: #ddd;
+    border-radius:5px;
+    float: right;
+}
+
+
+/* start msg design part*/
+.send_msg_design{
+
+width:50%;
+height:350px ;
+margin-left:29%;
+margin-top:20px;
+
+}
+
+.send_msg_design h1{
+
+    color: #145199;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 40%;
+    
+}
+
+.send_msg_design input{
+
+    text-align: center;
+    padding-left: 20px;
+    width: 80%;
+    height: 40px;
+    /* color: blue; */
+    background-color: white;
+    border: 1px solid #7979da;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+#msg{
+
+    width: 80%;
+    margin-top: 5px;
+    height: 100px;
+    margin-left: 10%;
+    background-color: white;
+    /* color: blue; */
+    font-size: 20px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    padding-left: 20px;
+    display: block;
+
+
+
+}
+
+#btn_send{
+
+    width: 110px;
+    height: 40px;
+    background-color: #145199;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    /* margin-left: 10px; */
+    margin-bottom: 36px;
+
+
+
+}
+
+
+
+
+.copy_right{
+
+width: 100%;
+height:70px;
+
+
+}
+
+.copy_right img{
+
+    float: right;
+    margin-left:10px;
+    margin-top:10px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+
+}
+
+.copy_right p{
+
+    margin-top:10px;
+    float: left;
+    margin-left:40%;
+
+}
+
+@media only screen and (max-width:600px){
+
+
+    
+    ul{
+        width:80%;
+    
+    }
+    
+    li a{
+        padding: 18px 1px;
+        /* width: 100%; */
+        text-align: center;
+    
+    }
+
+.map_view{
+
+width:100%;
+margin: 0;
+
+}
+
+
+.view_info{
+
+    width:100%;
+    margin: 0;
+    text-align: center;
+}
+
+
+.send_msg_design{
+
+width:100%;
+margin: 0;
+height: auto;
+
+
+
+}
+.main_div{
+    width: 100%;
+  
+    margin-bottom: 10px;
+}
+  
+.copy_right{
+
+width:100%;
+
+}
+.copy_right img{
+
+margin:0;
+
+
+}
+
+.copy_right p{
+
+
+    width:100%;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+    
+    }
+    
+    
+    
+      
+
+    
+@media only screen and (min-width:605px) and (max-width:800px){
+
+
+    
+    ul{
+        width:80%;
+    
+    }
+    
+    li a{
+        padding: 18px 1px;
+        /* width: 100%; */
+        text-align: center;
+    }
+
+.map_view{
+
+width:100%;
+margin: 0;
+
+}
+
+
+.view_info{
+
+    width:100%;
+    margin: 0;
+    text-align: center;
+}
+
+
+.send_msg_design{
+
+width:100%;
+margin: 0;
+height: auto;
+
+
+
+}
+.main_div{
+    width: 100%;
+   
+    margin-bottom: 10px;
+}
+  
+.copy_right{
+
+width:100%;
+
+}
+.copy_right img{
+
+margin:0;
+
+
+}
+
+.copy_right p{
+
+
+    width:100%;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+    
+    }
+    
+    
+    
+
+    
+@media only screen and (min-width:800px) and (max-width:1200px){
+
+
+    
+    ul{
+        width:80%;
+    
+    }
+    
+    li a{
+        padding: 18px 1px;
+        /* width: 100%; */
+        text-align: center;
+    
+    }
+
+.map_view{
+
+width:100%;
+margin: 0;
+
+}
+
+
+.view_info{
+
+    width:100%;
+    margin: 0;
+    text-align: center;
+}
+
+
+.send_msg_design{
+
+width:100%;
+margin: 0;
+height: auto;
+
+
+
+}
+.main_div{
+    width: 100%;
+   
+    margin-bottom: 10px;
+}
+  
+.copy_right{
+
+width:100%;
+
+}
+.copy_right img{
+
+margin:0;
+
+
+}
+
+.copy_right p{
+
+
+    width:100%;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+    
+    }
+    
+    
+      

@@ -1,0 +1,756 @@
+
+
+body{
+    font-family: 'Relway';
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+
+
+    list-style-type:none;
+    float: right;
+    padding: 0;
+    margin: 0;
+    background-color: #9c9c9c;
+    width:89%;
+    /* padding-left: 10%; */
+ 
+}
+
+
+li a {
+    float: left;
+    padding: 18px 8px;
+    margin-left: 78px;
+    display: block;
+    text-decoration: none;
+    color: #efeaea;
+    font-size: 23px;
+    font-family: 'Relway';
+}
+li a:hover{
+
+    background-color: #a6a6a7;
+color: #ffffff;
+text-decoration: none;
+}
+
+.logo{
+    width: 10%;
+}
+
+.space{
+
+    height:20px;
+    width:100%;
+    background-color: #ddd;
+}
+
+
+.view_image{
+    /* float: right; */
+    width: 300px;
+    height: 300px;
+    margin-right: 15px;
+    margin-top: 20p;
+    margin-left: 39%
+}
+
+.view_image img{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+.section_view_supplier{
+
+width:100%;
+height:528px;
+background-color:white;
+text-align: center;
+
+
+
+}
+
+/* design part for signup div */
+.signup_design{
+    /* margin-top: 6%; */
+    margin-left: 33%;
+    width: 500px;
+    height: 580px;
+    background-color: #8fa4b3;
+    border-radius: 19px;
+
+
+}
+
+
+#signup_header{
+
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.signup_design input{
+
+    width: 77%;
+    height: 43px;
+    margin-left: 63px;
+    padding: 5px;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+}
+
+
+#btn_signup{
+    background-color: rgb(48, 48, 121);
+    color: white;
+    font-size: 15px;
+    border-color: none;
+    margin-top: 32px;
+    margin-left: 33%;
+    padding: 8px;
+    width: 177px;
+    height: 42px;
+    border: 1px solid rgb(48, 48, 121);
+    border-radius: 20px;
+}
+.signup_design h4{
+
+margin-left:20px;
+color: black;
+font-size: 15px;
+margin-bottom: 11px;
+margin-top: 40px;
+
+}
+.signup_design p{
+
+   margin-left: 4%;
+   color: black;
+    }
+
+.signup_design a{
+
+text-decoration: none;
+font-size: 20px;
+color: blue;
+}
+
+.sign_design a:hover{
+color: #DAEBF7;
+font-size: 25px;
+
+
+}
+
+
+/* end of design part for signup div */
+
+
+.copy_right{
+
+width: 100%;
+height:70px;
+
+
+}
+
+.copy_right img{
+
+    float: right;
+    margin-left:10px;
+    margin-top:10px;
+    width:50px;
+    height:50px;
+
+}
+
+.copy_right p{
+
+    margin-top:10px;
+    float: left;
+    margin-left:40%;
+
+}
+
+
+/* media query part   */
+
+@media only screen and (max-width:600px){
+
+    ul{
+
+
+        list-style-type:none;
+        float: right;
+        padding: 0;
+        margin: 0;
+        background-color: #ddd;
+        width:85%;
+        padding-left: 10%;
+    
+        
+     
+    }
+    
+    li a{
+    
+    float: left;
+    padding: 18px 8px;
+    margin-left:75px;
+    display: block;
+    text-decoration: none;
+    color:black;
+    font-size: 19px;
+    
+    }
+    li a:hover{
+    
+        /* background-color: white; */
+        color:blue;
+    }
+
+.space{
+
+    height:20px;
+    width:100%;
+    background-color: #ddd;
+}
+
+.section_view{
+margin:0;
+width:100%;
+height:500px;
+background-color:white;
+
+
+}
+
+/* design part for signup div */
+.signup_design{
+    margin: 0;
+    width: 69%;
+    height: 423px;
+    margin-top: 47%;
+    margin-left: 20%;
+    background-color: #DAEBF7;
+    border-radius: 10%;
+    box-shadow: 12px 12px #ddd;
+}
+
+
+#signup_header{
+   padding-top: 6%;
+    margin:0;
+    color: blue;
+    width:100%;
+    text-align: center;
+
+}
+
+.signup_design input{
+
+    background-color: #ddd;
+    color: blue;
+    width: 69%;
+
+    text-align: center;
+
+}
+#btn_signup{
+    background-color: white;
+    color: blue;
+    border-color: none;
+    margin: 0;
+    margin-left: 28%;
+    padding: 8px;
+    width: 38%;
+
+}
+.signup_design h4{
+
+margin:0;
+width:100%;
+color: darkslategrey;
+font-size: 15px;
+padding-top: 15%;
+    padding-left: 5%;
+
+}
+.signup_design p {
+    margin-left: 6%;
+}
+.signup_design a{
+
+text-decoration: none;
+font-size: 20px;
+color: blue;
+}
+
+.sign_design a:hover{
+color: #DAEBF7;
+font-size: 25px;
+
+
+}
+
+
+/* end of design part for signup div */
+
+
+.copy_right{
+
+width: 100%;
+height:70px;
+
+
+}
+
+.copy_right img{
+
+    float: right;
+    margin-left:10px;
+    margin-top:10px;
+    width:50px;
+    height:50px;
+
+}
+
+.copy_right p{
+
+    margin-top:10px;
+    float: left;
+    margin-left:40%;
+
+}
+
+}
+
+
+
+@media only screen and (min-width:600px) and (max-width:800px){
+
+    ul{
+
+
+        list-style-type:none;
+        float: right;
+        padding: 0;
+        margin: 0;
+        background-color: #ddd;
+        width:85%;
+        padding-left: 10%;
+    
+        
+     
+    }
+    
+    li a{
+    
+    float: left;
+    padding: 18px 8px;
+    margin-left:75px;
+    display: block;
+    text-decoration: none;
+    color:black;
+    font-size: 19px;
+    
+    }
+    li a:hover{
+    
+        /* background-color: white; */
+        color:blue;
+    }
+    
+    .space{
+    
+        height:20px;
+        width:100%;
+        background-color: #ddd;
+    }
+    
+    .section_view{
+    margin:0;
+    width:100%;
+    height:500px;
+    background-color:white;
+    
+    
+    }
+    
+    /* design part for signup div */
+    .signup_design{
+        margin: 0;
+        width: 63%;
+        height: 460px;
+        margin-top: 37%;
+        margin-left: 20%;
+        background-color: #DAEBF7;
+        border-radius: 10%;
+        box-shadow: 12px 12px #ddd;
+    }
+    
+    
+    #signup_header{
+       padding-top: 6%;
+        margin:0;
+        color: blue;
+        width:100%;
+        text-align: center;
+    
+    }
+    
+    .signup_design input{
+    
+        background-color: #ddd;
+        color: blue;
+        width: 69%;
+         margin-left: 16%;
+        text-align: center;
+    
+    }
+    #btn_signup{
+        background-color: white;
+        color: blue;
+        border-color: none;
+        margin: 0;
+        margin-left: 28%;
+        padding: 8px;
+        width: 38%;
+    
+    }
+    .signup_design h4{
+    
+    margin:0;
+    width:100%;
+    color: darkslategrey;
+    font-size: 15px;
+    padding-top: 15%;
+        padding-left: 5%;
+    
+    }
+    .signup_design p {
+        margin-left: 6%;
+    }
+    .signup_design a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    }
+    
+    .sign_design a:hover{
+    color: #DAEBF7;
+    font-size: 25px;
+    
+    
+    }
+    
+    
+    /* end of design part for signup div */
+    
+    
+    .copy_right{
+    
+    width: 100%;
+    height:70px;
+    
+    
+    }
+    
+    .copy_right img{
+    
+        float: right;
+        margin-left:10px;
+        margin-top:10px;
+        width:50px;
+        height:50px;
+    
+    }
+    
+    .copy_right p{
+    
+        margin-top:10px;
+        float: left;
+        margin-left:40%;
+    
+    }
+    
+    }
+
+
+@media only screen and (min-width:800px) and (max-width:1200px){
+    ul{
+
+
+        list-style-type:none;
+        float: right;
+        padding: 0;
+        margin: 0;
+        background-color: #9c9c9c;
+        width:89%;
+        /* padding-left: 10%; */
+     
+    }
+    
+    li a{
+    
+    float: left;
+    padding: 18px 8px;
+    margin-left:80px;
+    display: block;
+    text-decoration: none;
+    color:#efeaea;
+    font-size: 22px;
+    font-family: 'Relway';
+    
+    }
+    li a:hover{
+    
+        background-color: #a6a6a7;
+    color: #ffffff;
+    text-decoration: none;
+    }
+    
+    .logo{
+        width: 10%;
+    }
+    
+    
+    .section_view{
+
+        width:100%;
+        height:500px;
+        background-color:white;
+        
+        
+        
+        }
+        
+        /* design part for signup div */
+        .signup_design{
+            margin-top: 6%;
+            margin-left: 33%;
+            width: 500px;
+            height: 520px;
+            background-color: #8fa4b3;
+            border-radius: 19px;
+        
+        
+        }
+        
+        
+        #signup_header{
+        
+            text-align: center;
+            color: white;
+            padding-top: 25px;
+            margin-bottom: 20px;
+        
+        
+        
+        }
+        
+        .signup_design input{
+        
+            width: 77%;
+            height: 43px;
+            margin-left: 63px;
+            padding: 5px;
+            margin-bottom: 3%;
+            border-radius: 10px;
+            text-align: center;
+            display: block;
+        }
+        
+        
+        #btn_signup{
+            background-color: rgb(48, 48, 121);
+            color: white;
+            font-size: 15px;
+            border-color: none;
+            margin-top: 32px;
+            margin-left: 33%;
+            padding: 8px;
+            width: 177px;
+            height: 42px;
+            border: 1px solid rgb(48, 48, 121);
+            border-radius: 20px;
+        }
+        .signup_design h4{
+        
+        margin-left:20px;
+        color: black;
+        font-size: 15px;
+        margin-bottom: 11px;
+        margin-top: 40px;
+        
+        }
+        .signup_design p{
+        
+           margin-left: 4%;
+           color: black;
+            }
+        
+        .signup_design a{
+        
+        text-decoration: none;
+        font-size: 20px;
+        color: blue;
+        }
+        
+        .sign_design a:hover{
+        color: #DAEBF7;
+        font-size: 25px;
+        
+        
+        }
+        
+        
+        /* end of design part for signup div */
+        
+    
+    
+    .copy_right{
+    
+    width: 100%;
+    height:70px;
+    
+    
+    }
+    
+    .copy_right img{
+    
+        float: right;
+        margin-left:10px;
+        margin-top:10px;
+        width:50px;
+        height:50px;
+    
+    }
+    
+    .copy_right p{
+    
+        margin-top:10px;
+        float: left;
+        margin-left:40%;
+    
+    }
+    
+    }
+
+/* end of media query part*/
+
+
+#view_img{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin: 45px;
+    margin-bottom: 0;
+}
+
+.all{
+    width: 100%;
+    height: 800px;
+    margin: 0;
+}
+
+.supplier{
+    /* width: 300px;
+    height: 400px; */
+    margin-top: 30px;
+    float: left;
+    width: 27%;
+    margin-left: 35%;
+ 
+ 
+
+
+}
+
+.supplier_items{
+    /* width: 300px;
+    height: 400px; */
+    margin-top: 30px;
+    float: left;
+    width: 27%;
+    margin-left: 6%;
+
+}
+.supplier_items img{
+    width: 76%;
+    height: 250px;
+    border-radius: 10%;
+    /* margin-left: 24px; */
+    display: block;
+}
+
+.supplier_items h5{
+    margin-left: 34px;
+    color: black;
+    /* margin: 14px; */
+    margin-top: 23px;
+    font-size: 28px;
+    /* float: left; */
+    display: inline-block;
+    /* margin-right: 114px; */
+}
+
+.supplier img{
+    width: 76%;
+    height: 250px;
+    border-radius: 10%;
+    /* margin-left: 24px; */
+    display: block;
+
+}
+
+
+.supplier h5{
+    margin-left: 62px;
+    color: black;
+    /* margin: 14px; */
+   
+    font-size: 24px;
+    /* float: left; */
+    display: inline-block;
+    /* margin-right: 114px; */
+}
+
+.supplier_items button{
+    width: 64px;
+    border-radius: 6px;
+}
+
+.supplier_items a{
+    font-size: 24px;
+    margin-left: 61px;
+    /* text-decoration: none; */
+}
+
+.supplier_items a:hover{
+    color: rgb(6, 6, 54);
+    text-decoration: none;
+
+}
+
+.supplier p{
+    
+}
