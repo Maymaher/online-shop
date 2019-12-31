@@ -49,9 +49,9 @@ include_once 'test.php';
           
             <li> <a href="contact_us.php">Contact Us</a> </li>
             <div class="search">
-                <form>    
+                <form  action="index.php"  method="POST" enctype="multipart/form-data">    
                     <input type="search" name="t_search" placeholder="search by item name"/>
-                    <input id="btn_search" type="submit" value="Search" />
+                    <input id="btn_search" type="submit" name="submit" value="Search" />
                     
                 </form>
                 </div>
@@ -59,6 +59,14 @@ include_once 'test.php';
         
         
         </div>
+
+<?php
+if(isset($_POST['submit']) and $_POST['submit']=='Search'){
+    $word=$_POST['t_search'];
+    header("location:http://localhost/git project/ndr1/search_for_user.php?word=".$word);
+}
+?>
+
 
 <div class="background_img">
   <img src="images/banner13.jpg">
@@ -87,8 +95,15 @@ if($get_data){
 ?>
 <div class="item_view">
 
-
+<a href="<?php echo "http://localhost/git project/ndr1/item_detail_foruser.php?item=".$id; ?>">
 <img src="<?php echo $image ?>" alt="item image" />
+
+<div class="middle">
+    <div class="text">More detail</div>
+  </div>
+
+
+    </a>
 <h3>Price:<?php echo $price; ?></h3>
 
 </div>
@@ -107,6 +122,8 @@ if($get_data){
 
 
 </div>
+
+
 
 <div class="more_courses">
 <h2>More Items</h2>
