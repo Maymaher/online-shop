@@ -77,6 +77,8 @@ if(isset($_POST['submit']) and $_POST['submit']=="search"){
 
 <div class="all">
 
+
+
 <?php
 
 if(isset($_GET['word']))
