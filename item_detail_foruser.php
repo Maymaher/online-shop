@@ -71,6 +71,8 @@ if($get_data){
 
 
 
+
+
 <img src="<?php echo $path; ?>" id="view_image" alt="supplier photo">
 
 <h5>price: <?php echo $price ; ?> EGP</h5>

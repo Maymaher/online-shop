@@ -75,6 +75,7 @@ if(isset($_POST['submit']) and $_POST['submit']=='Search'){
 </div>
 
 
+
 <div class="section_view">
 <h1>Products</h1>
 

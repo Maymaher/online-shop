@@ -49,10 +49,7 @@ session_start();
 
 </div>
 
-<!-- <div class="space"></div> -->
 
-
-<!--  start section div -->
 
 <div class="section_view">
 
