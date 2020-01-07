@@ -2,6 +2,8 @@
 class item{
     public function get_connection(){
         return $con=mysqli_connect('localhost','root','12345678','ndr_db');
+
+
         
     }
 

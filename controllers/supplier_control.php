@@ -33,7 +33,6 @@ if(isset($_POST['submit']) and $_POST['submit']=="SignUp"){
     $n=new supplier();
     $n->insert($id,$name,$mail,$address,$pass,$phone,$target_folder,$target_loc);
 
-
   
 }
 
