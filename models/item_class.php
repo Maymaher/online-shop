@@ -2,6 +2,7 @@
 class item{
     public function get_connection(){
         return $con=mysqli_connect('localhost','root','12345678','ndr_db');
+        
     }
 
     public function insert_item($name,$email,$price,$amount,$target_folder,$target_loc){

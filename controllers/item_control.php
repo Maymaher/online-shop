@@ -2,8 +2,9 @@
 include_once '../moduls/item_class.php';
 session_start();
 
+
 if(isset($_POST['submit']) and $_POST['submit']=="Add"){
-    // $id=$_POST['t_id'];
+ 
     $email=$_SESSION['s_email'];
     $name=$_POST['t_name'];
     $price=$_POST['price'];
