@@ -2,8 +2,6 @@
 
 ob_start();
 
-include_once 'moduls/item_class.php';
-
 session_start();
 if(!isset($_SESSION['s_email'])){
     include 'login.php';

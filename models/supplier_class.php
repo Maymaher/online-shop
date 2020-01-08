@@ -8,6 +8,17 @@ class supplier{
 
     public function insert($id,$name,$mail,$address,$pass,$phone,$target_folder,$target_loc){
         $con=$this->get_connection();
+
+//   check if email is exist
+
+  $sql_check=mysqli_query($con,"select * from supplier where Email='$mail'");
+  if(mysqli_num_rows($sql_check)>0){
+      echo '<script>alert("this email already exist")</script>';
+
+  }
+
+  else{
+
         $query="insert into supplier (national_id,name,Email,address,ndr,phone,image,image_path) values ('$id','$name','$mail',
         '$address','$pass','$phone','$target_folder','$target_loc')" ;
         $result=mysqli_query($con,$query);
@@ -23,6 +34,8 @@ class supplier{
         }
 
         return $result;
+
+    }
     }
 
 
@@ -147,7 +160,7 @@ public function forget_password($email,$req_time,$ip_add,$ip_addr_local,$ip_from
         $message="please click on this mail to reset your passwrod \n
         http://www.ndr1.com/reset_password.php?e=$email";
      mail($to,$subject,$message,$header);
-      header('location:check_email_msg.php');
+      header('location:../check_email_msg.php');
     }
  
 

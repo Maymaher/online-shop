@@ -1,7 +1,6 @@
 <?php
 ob_start();
 
-include_once 'test.php';
 include_once 'moduls/item_class.php';
 
 session_start();
@@ -70,8 +69,6 @@ if(!isset($_SESSION['s_email'])){
 <?php
 
 $item_id=$_GET['item_id'];
-
-
 $item=new item();
 $item->get_item_by_id($item_id);
 
@@ -85,8 +82,6 @@ $item->get_item_by_id($item_id);
 <div class="view_image">
     <img src="<?php echo $item->path ;?>" id="view_img" >
 </div>
-
-
 
 <input type="text" name="name" value="<?php echo $item->name?>" placeholder="item name" />
 <input type="text" name="price" value="<?php echo $item->price?>" placeholder="price " />

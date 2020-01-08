@@ -10,14 +10,6 @@ if(isset($_POST['submit']) and $_POST['submit']=="SignUp"){
     $phone=$_POST['t_phone'];
     $pass=$_POST['t_pass'];
     $mail=$_POST['t_email'];
-
-//   check if email is exist
-
-//   $sql_check=mysqli_query($con,"select * from supplier where Email='$mail'");
-//   if(mysqli_num_rows($sql_check)>0){
-//       echo '<script>alert("this email already exist")</script>';
-
-//   }
   
   
 
