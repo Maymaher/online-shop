@@ -1,6 +1,6 @@
 <?php
-include_once 'test.php';
-include_once 'moduls/supplier_class.php';
+
+include_once 'models/supplier_class.php';
 ?>
 
 <html>
@@ -44,7 +44,7 @@ include_once 'moduls/supplier_class.php';
 <div class="section_view">
 
 <!-- login part design  -->
-<form action="controls/supplier_control.php" method="POST" >
+<form action="controllers/supplier_control.php" method="POST" >
 <div class="login_design">
 
 

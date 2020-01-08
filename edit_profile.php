@@ -1,13 +1,12 @@
 <?php
 ob_start();
 
-include_once 'moduls/supplier_class.php';
+include_once 'models/supplier_class.php';
 
-include_once 'test.php';
+
 
 session_start();
 if(!isset($_SESSION['s_email'])){
-    // header('location:login.php');
     include 'login.php';
     die();
 }
@@ -86,7 +85,7 @@ $m->get_supplier($email);
     <img src="images/profile.png" id="view_img" >
 </div>
 
-<form action="controls/supplier_control.php" method="POST" enctype="multipart/form-data">
+<form action="controllers/supplier_control.php" method="POST" enctype="multipart/form-data">
 <div class="signup_design">
 
 

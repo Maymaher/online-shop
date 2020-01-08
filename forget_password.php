@@ -42,7 +42,7 @@
 <div class="section_view">
 
 
-<form action="controls/supplier_control.php" method="POST" >
+<form action="controllers/supplier_control.php" method="POST" >
 <div class="login_design">
 
 

@@ -1,8 +1,8 @@
 <?php
 ob_start();
 
-include_once 'test.php';
-include_once 'moduls/supplier_class.php';
+
+include_once 'models/supplier_class.php';
 
 session_start();
 if(!isset($_SESSION['s_email'])){

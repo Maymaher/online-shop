@@ -3,12 +3,6 @@ ob_start();
 
 include_once 'test.php';
 
-session_start();
-// if(!isset($_SESSION['s_email'])){
-   
-//     include 'login.php';
-//     die();
-// }
 
 ?>
 

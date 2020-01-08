@@ -68,7 +68,7 @@ if(!isset($_SESSION['s_email'])){
 
 
 
-<form action="controls/item_control.php" method="POST" enctype="multipart/form-data">
+<form action="controllers/item_control.php" method="POST" enctype="multipart/form-data">
 <div class="signup_design">
 <h2 id="signup_header">Add Item</h2>
 

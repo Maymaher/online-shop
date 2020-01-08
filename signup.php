@@ -1,6 +1,3 @@
-<?php
-include_once 'moduls/supplier_class.php';
-?>
 
 <html>
 
@@ -60,7 +57,7 @@ include_once 'moduls/supplier_class.php';
 </div>
 
 <!-- signup part design  -->
-<form action="controls/supplier_control.php" method="POST" enctype="multipart/form-data">
+<form action="controllers/supplier_control.php" method="POST" enctype="multipart/form-data">
 <div class="signup_design">
 
 
@@ -84,7 +81,6 @@ include_once 'moduls/supplier_class.php';
 
 
 </div>
-<!--  end of login part design  -->
 
 
 

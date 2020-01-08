@@ -1,7 +1,7 @@
 <?php
 ob_start();
 
-include_once 'moduls/item_class.php';
+include_once 'models/item_class.php';
 
 session_start();
 if(!isset($_SESSION['s_email'])){
@@ -75,7 +75,7 @@ $item->get_item_by_id($item_id);
 ?>
 
 
-<form action="controls/item_control.php" method="POST" enctype="multipart/form-data">
+<form action="controllers/item_control.php" method="POST" enctype="multipart/form-data">
 <div class="signup_design">
 
 <h2 id="signup_header">Edit Item</h2>

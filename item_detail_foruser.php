@@ -1,7 +1,7 @@
 <?php
 ob_start();
 
-include_once 'test.php';
+include_once 'models/item_class.php';
 
 session_start();
 
@@ -55,26 +55,21 @@ session_start();
 if(isset($_GET['item'])){
 $id=$_GET['item'];
 
-$get_data=mysqli_query($con,"select * from items where id='$id'");
-if($get_data){
-    while($row=mysqli_fetch_assoc($get_data))
-    {
-        $id=$row['id'];
-        $name=$row['name'];
-       $price=$row['price'];
-       $amount=$row['amount'];
-       $path=$row['image_path'];
+$item=new item();
+$item->get_item_by_id($id);
+
+
 
 
 ?>
 <div class="supplier">
 
 
-<img src="<?php echo $path; ?>" id="view_image" alt="supplier photo">
+<img src="<?php echo $item->path; ?>" id="view_image" alt="supplier photo">
 
-<h5>price: <?php echo $price ; ?> EGP</h5>
-<h5>name: <?php echo $name ?> </h5>
-<h5>available units: <?php echo $amount ?> </h5>
+<h5>price: <?php echo $item->price ; ?> EGP</h5>
+<h5>name: <?php echo $item->name ?> </h5>
+<h5>available units: <?php echo $item->amount ?> </h5>
 
 
 
@@ -84,8 +79,7 @@ if($get_data){
 
 <?php
     }
-}
-}
+
 
 ?>
 
