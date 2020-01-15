@@ -6,7 +6,7 @@ class supplier{
     }
 
 
-    public function insert($id,$name,$mail,$address,$pass,$phone,$target_folder,$target_loc){
+    public function insert($name,$mail,$address,$pass,$phone,$target_folder,$target_loc){
         $con=$this->get_connection();
 
 //   check if email is exist
@@ -19,7 +19,7 @@ class supplier{
 
   else{
 
-        $query="insert into supplier (national_id,name,Email,address,ndr,phone,image,image_path) values ('$id','$name','$mail',
+        $query="insert into supplier (name,Email,address,ndr,phone,image,image_path) values ('$name','$mail',
         '$address','$pass','$phone','$target_folder','$target_loc')" ;
         $result=mysqli_query($con,$query);
 

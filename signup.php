@@ -24,6 +24,17 @@
                 };
         reader.readAsDataURL(event.target.files[0]);
             }
+
+            function validate(){
+            
+            let phone_value=document.getElementById('t_phone').value;
+            reg_phone=/^(\d{11})$/;
+            test=reg_phone.test(phone_value);
+            if(!test){
+            alert("phone must be 11 number"+test);
+            return false;
+            }
+            }
    </script>
 
 </head>
@@ -57,7 +68,7 @@
 </div>
 
 <!-- signup part design  -->
-<form action="controllers/supplier_control.php" method="POST" enctype="multipart/form-data">
+<form action="controllers/supplier_control.php" method="POST" onsubmit="return validate()" enctype="multipart/form-data">
 <div class="signup_design">
 
 
@@ -67,7 +78,6 @@
 <input type="tel" name="t_phone" placeholder="Phone number" />
 <input type="email" name="t_email" placeholder="Your E-mail" />
 <input type="password" name="t_pass" placeholder="Your Password" />
-<input type="text" name="t_id" placeholder="Your national id " />
 <input type="text" name="address" placeholder="Your address" />
 
 <input type="file" onchange="preview_image(event)" name="photo_file">

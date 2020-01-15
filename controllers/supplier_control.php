@@ -4,7 +4,7 @@ session_start();
 include_once '../moduls/supplier_class.php';
 
 if(isset($_POST['submit']) and $_POST['submit']=="SignUp"){
-    $id=$_POST['t_id'];
+    
     $name=$_POST['t_name'];
     $address=$_POST['address'];
     $phone=$_POST['t_phone'];
@@ -23,7 +23,7 @@ if(isset($_POST['submit']) and $_POST['submit']=="SignUp"){
     move_uploaded_file($pack_pic2,$target_folder);
 
     $n=new supplier();
-    $n->insert($id,$name,$mail,$address,$pass,$phone,$target_folder,$target_loc);
+    $n->insert($name,$mail,$address,$pass,$phone,$target_folder,$target_loc);
 
   
 }
